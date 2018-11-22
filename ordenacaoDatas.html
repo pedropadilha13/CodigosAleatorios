@@ -17,50 +17,14 @@
         var days = dates.days;
         var months = dates.months;
         var year = dates.years;
-        
+
         var size = dates.days.length;
 
         show();
 
         for (var i = 0; i < size; i++) {
             for (var j = 0; j < size - i - 1; j++) {
-                if (year[j] > year[j + 1]) {
-                    var dayTemp = days[j];
-                    days[j] = days[j + 1];
-                    days[j + 1] = dayTemp;
-
-                    var monthTemp = months[j];
-                    months[j] = months[j + 1];
-                    months[j + 1] = monthTemp;
-
-                    var yearTemp = year[j];
-                    year[j] = year[j + 1];
-                    year[j + 1] = yearTemp;
-                }
-            }
-        }
-
-        for (var i = 0; i < size; i++) {
-            for (var j = 0; j < size - i - 1; j++) {
-                if (year[j] === year[j + 1] && months[j] > months[j + 1]) {
-                    var dayTemp = days[j];
-                    days[j] = days[j + 1];
-                    days[j + 1] = dayTemp;
-
-                    var monthTemp = months[j];
-                    months[j] = months[j + 1];
-                    months[j + 1] = monthTemp;
-
-                    var yearTemp = year[j];
-                    year[j] = year[j + 1];
-                    year[j + 1] = yearTemp;
-                }
-            }
-        }
-
-        for (var i = 0; i < size; i++) {
-            for (var j = 0; j < size - i - 1; j++) {
-                if (year[j] === year[j + 1] && months[j] === months[j + 1] && days[j] > days[j + 1]) {
+                if (year[j] > year[j + 1] || year[j] === year[j + 1] && months[j] > months[j + 1] || year[j] === year[j + 1] && months[j] === months[j + 1] && days[j] > days[j + 1]) {
                     var dayTemp = days[j];
                     days[j] = days[j + 1];
                     days[j + 1] = dayTemp;
