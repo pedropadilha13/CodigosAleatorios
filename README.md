@@ -11,3 +11,8 @@ Como o próprio nome já diz, vou postar coisas aleatórias aqui :)
 ##### Proposto por: Gabriel Henrique
 - Problema: Implementação do Algoritmo de Ordenação Bubble Sort
 - Solução: [bubbleSort.js](bubbleSort.js)
+
+## Game of Life
+##### Proposto por: Basile
+- Problema: Implementar o "Jogo da Vida", de Conway, em C
+- Solução: [GameOfLife.c](GameOfLife.c)
