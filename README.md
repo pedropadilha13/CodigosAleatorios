@@ -35,3 +35,17 @@ Como o próprio nome já diz, vou postar coisas aleatórias aqui :)
 
 - Problema: Implementar o "Jogo da Vida", de Conway, em JS
 - Solução: [GameOfLife.js](GameOfLife.js)
+
+## N Queens (naive)
+
+##### Proposto por: Basile
+
+- Problema: Implementar o problema "N Queens" em C (modo ingênuo)
+- Solução: [nqueens-naive.c](nqueens-naive.c)
+
+## N Queens (backtracking)
+
+##### Proposto por: Basile
+
+- Problema: Implementar o problema "N Queens" em C (usando backtracking)
+- Solução: [nqueens-backtracking.c](nqueens-backtracking.c)
