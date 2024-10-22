@@ -49,3 +49,10 @@ Como o próprio nome já diz, vou postar coisas aleatórias aqui :)
 
 - Problema: Implementar o problema "N Queens" em C (usando backtracking)
 - Solução: [nqueens-backtracking.c](nqueens-backtracking.c)
+
+## Video Sort
+
+##### Proposto por: iPhone troll que zoou todos os nomes dos vídeos
+
+- Problema: Vídeos com nomes desordenados ao fazer upload para o computador
+- Solução: [videoSort.js](videoSort.js)
